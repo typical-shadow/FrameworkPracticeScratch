@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-28T12:00:15 IST" name="Default suite" finished-at="2023-07-28T12:00:45 IST" duration-ms="30393">
+  <suite started-at="2023-07-28T16:23:57 IST" name="OrderingFlowEndToEnd" finished-at="2023-07-28T16:24:17 IST" duration-ms="19978">
     <groups>
     </groups>
-    <test started-at="2023-07-28T12:00:15 IST" name="Default test" finished-at="2023-07-28T12:00:45 IST" duration-ms="30393">
+    <test started-at="2023-07-28T16:23:57 IST" name="OrderFlow" finished-at="2023-07-28T16:24:17 IST" duration-ms="19978">
       <class name="tests.PlaceOrderFlow">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.PlaceOrderFlow@3cebbb30]" started-at="2023-07-28T12:00:15 IST" name="launchApplication" finished-at="2023-07-28T12:00:25 IST" duration-ms="10003" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.PlaceOrderFlow@141e5bef]" started-at="2023-07-28T16:23:57 IST" name="launchApplication" finished-at="2023-07-28T16:24:09 IST" duration-ms="11639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="OrderFlowEndToEnd()[pri:0, instance:tests.PlaceOrderFlow@3cebbb30]" started-at="2023-07-28T12:00:25 IST" name="OrderFlowEndToEnd" finished-at="2023-07-28T12:00:45 IST" duration-ms="20176" status="PASS">
+        <test-method signature="OrderFlowEndToEnd()[pri:0, instance:tests.PlaceOrderFlow@141e5bef]" started-at="2023-07-28T16:24:09 IST" name="OrderFlowEndToEnd" finished-at="2023-07-28T16:24:17 IST" duration-ms="8050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderFlowEndToEnd -->
       </class> <!-- tests.PlaceOrderFlow -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- OrderFlow -->
+  </suite> <!-- OrderingFlowEndToEnd -->
 </testng-results>

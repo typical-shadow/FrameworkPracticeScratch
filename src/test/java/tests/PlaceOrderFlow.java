@@ -12,7 +12,7 @@ import testComponents.BaseTest;
 
 public class PlaceOrderFlow extends BaseTest{
 
-	public HomePage homePage;
+	
 	public CartPage cartPage;
 	public TacPage tacPage;
 	
@@ -21,7 +21,7 @@ public class PlaceOrderFlow extends BaseTest{
 
 		
 		//HomePage
-		homePage = launchApplication();
+		
 		homePage.addProductToCart(getGlobalProperty("product"));
 
 		homePage.clickOnCartIcon();

@@ -5,6 +5,7 @@
     <classes>
       <class name="tests.PlaceOrderFlow">
         <methods>
+          <include name="launchApplication"/>
           <include name="OrderFlowEndToEnd"/>
         </methods>
       </class> <!-- tests.PlaceOrderFlow -->
