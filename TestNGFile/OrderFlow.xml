@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrderingFlowEndToEnd">
+  <test thread-count="2" name="OrderFlow">
+    <classes>
+      <class name="tests.PlaceOrderFlow"/>
+    </classes>
+  </test> <!-- OrderFlow -->
+</suite> <!-- OrderingFlowEndToEnd -->
